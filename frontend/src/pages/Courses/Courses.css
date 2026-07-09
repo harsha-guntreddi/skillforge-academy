@@ -1,0 +1,121 @@
+.courses-page {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding-bottom: 50px;
+}
+
+.courses-hero {
+  background: linear-gradient(135deg, #2563eb, #9333ea);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.courses-hero h1 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.courses-hero p {
+  font-size: 18px;
+}
+
+.courses-grid {
+  max-width: 1200px;
+  margin: 45px auto 0;
+  padding: 0 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.course-card {
+  background: white;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.09);
+  transition: 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.14);
+}
+
+.course-image {
+  height: 140px;
+  background: linear-gradient(135deg, #dbeafe, #ede9fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 58px;
+}
+
+.course-content {
+  padding: 22px;
+}
+
+.course-content h3 {
+  color: #111827;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.course-content p {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 72px;
+}
+
+.course-rating {
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.course-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.course-bottom button {
+  background: linear-gradient(135deg, #2563eb, #9333ea);
+  color: white;
+  border: none;
+  padding: 11px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.course-bottom button:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 950px) {
+  .courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .courses-hero h1 {
+    font-size: 30px;
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+
+  .course-content p {
+    min-height: auto;
+  }
+}

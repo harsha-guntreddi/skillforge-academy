@@ -1,0 +1,55 @@
+.notifications-page {
+  min-height: 100vh;
+  padding: 45px 20px;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.notifications-page h1 {
+  text-align: center;
+  font-size: 38px;
+  color: #111827;
+  margin-bottom: 35px;
+}
+
+.notifications-list {
+  max-width: 760px;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+}
+
+.notification-card {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  background: white;
+  padding: 22px;
+  border-radius: 20px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.notification-card:hover {
+  transform: translateY(-5px);
+}
+
+.notification-icon {
+  font-size: 32px;
+}
+
+.notification-card h3 {
+  color: #4f46e5;
+  margin-bottom: 8px;
+}
+
+.notification-card p {
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.notification-card span {
+  display: inline-block;
+  margin-top: 8px;
+  color: #6b7280;
+  font-size: 14px;
+}

@@ -1,0 +1,34 @@
+.certificates-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #0f172a;
+  color: white;
+}
+
+.certificates-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.no-certificates {
+  text-align: center;
+  font-size: 18px;
+}
+
+.certificates-grid {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+}
+
+.certificate-card {
+  background: linear-gradient(135deg, #16a34a, #2563eb);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.certificate-card h2 {
+  margin-bottom: 10px;
+}

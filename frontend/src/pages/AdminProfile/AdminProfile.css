@@ -1,0 +1,131 @@
+.admin-profile-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #020617, #1e1b4b, #312e81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.admin-profile-card {
+  width: 100%;
+  max-width: 850px;
+  background: white;
+  border-radius: 24px;
+  padding: 35px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+.admin-profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.admin-profile-icon {
+  font-size: 80px;
+  color: #312e81;
+}
+
+.admin-profile-header h1 {
+  margin: 10px 0 5px;
+  color: #1e1b4b;
+}
+
+.admin-profile-header span {
+  background: #ede9fe;
+  color: #312e81;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.admin-info-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+
+.admin-info-box svg {
+  font-size: 28px;
+  color: #4f46e5;
+}
+
+.admin-info-box small {
+  color: #64748b;
+}
+
+.admin-info-box p {
+  margin: 4px 0 0;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.admin-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 25px;
+}
+
+.admin-action-card {
+  text-decoration: none;
+  background: linear-gradient(135deg, #1e1b4b, #4f46e5);
+  color: white;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.admin-action-card svg {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.admin-action-card span {
+  display: block;
+}
+
+.admin-action-card:hover {
+  transform: translateY(-5px);
+}
+
+.admin-logout-btn,
+.admin-profile-btn {
+  margin-top: 30px;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 14px;
+  background: #dc2626;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.admin-logout-btn:hover {
+  background: #b91c1c;
+}
+
+.admin-profile-btn {
+  background: #312e81;
+}
+
+@media (max-width: 768px) {
+  .admin-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-profile-card {
+    padding: 25px;
+  }
+}

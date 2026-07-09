@@ -1,0 +1,43 @@
+.review-card {
+  background: white;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  margin-bottom: 18px;
+}
+
+.review-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.review-top h3 {
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.review-top span {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.stars {
+  white-space: nowrap;
+}
+
+.review-card p {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.review-card button {
+  margin-top: 15px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}

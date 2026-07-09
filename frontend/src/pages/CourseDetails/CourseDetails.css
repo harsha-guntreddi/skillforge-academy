@@ -1,0 +1,113 @@
+.course-details-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f4f7fb;
+}
+
+.course-details-card {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.course-details-card h1 {
+  text-align: center;
+  color: #1e293b;
+}
+
+.course-info {
+  background: #eef4ff;
+  padding: 18px;
+  border-radius: 12px;
+  margin: 25px 0;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 18px;
+  background: #dbeafe;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #2563eb, #22c55e);
+  transition: width 0.4s ease;
+}
+
+.progress-text {
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.media-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fafc;
+  padding: 16px;
+  margin: 14px 0;
+  border-radius: 12px;
+}
+
+.media-card h3 {
+  margin: 0;
+  color: #1e293b;
+}
+
+.media-card p {
+  margin: 5px 0 0;
+  color: #64748b;
+}
+
+.media-card button,
+.download-certificate-btn {
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.media-card button {
+  background: #2563eb;
+}
+
+.media-card button:hover {
+  background: #1d4ed8;
+}
+
+.download-certificate-btn {
+  background: #16a34a;
+}
+
+.download-certificate-btn:hover {
+  background: #15803d;
+}
+
+.certificate-ready {
+  color: green;
+  font-weight: bold;
+}
+
+.certificate-pending {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .course-details-card {
+    padding: 20px;
+  }
+
+  .media-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
